@@ -1,0 +1,19 @@
+﻿  wumpsim.cpp
+  WumpusWorld.cpp
+  Generating Code...
+PyAgent.obj : error LNK2005: "public: __thiscall Agent::~Agent(void)" (??1Agent@@QAE@XZ) already defined in Agent.obj
+PyAgent.obj : error LNK2005: "public: void __thiscall Agent::GameOver(int)" (?GameOver@Agent@@QAEXH@Z) already defined in Agent.obj
+PyAgent.obj : error LNK2005: "public: void __thiscall Agent::Initialize(void)" (?Initialize@Agent@@QAEXXZ) already defined in Agent.obj
+PyAgent.obj : error LNK2005: "public: enum Action __thiscall Agent::Process(class Percept &)" (?Process@Agent@@QAE?AW4Action@@AAVPercept@@@Z) already defined in Agent.obj
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyObject_GetAttrString referenced in function "public: __thiscall Agent::Agent(struct _object *)" (??0Agent@@QAE@PAU_object@@@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp___Py_NegativeRefcount referenced in function "public: __thiscall Agent::Agent(struct _object *)" (??0Agent@@QAE@PAU_object@@@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp___Py_Dealloc referenced in function "public: __thiscall Agent::Agent(struct _object *)" (??0Agent@@QAE@PAU_object@@@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyInt_FromLong referenced in function "public: void __thiscall Agent::GameOver(int)" (?GameOver@Agent@@QAEXH@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyInt_AsLong referenced in function "public: enum Action __thiscall Agent::Process(class Percept &)" (?Process@Agent@@QAE?AW4Action@@AAVPercept@@@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyTuple_New referenced in function "public: void __thiscall Agent::GameOver(int)" (?GameOver@Agent@@QAEXH@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyTuple_SetItem referenced in function "public: void __thiscall Agent::GameOver(int)" (?GameOver@Agent@@QAEXH@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyErr_Print referenced in function "struct _object * __cdecl myPyObject_CallObject(struct _object *,struct _object *)" (?myPyObject_CallObject@@YAPAU_object@@PAU1@0@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp__PyObject_CallObject referenced in function "struct _object * __cdecl myPyObject_CallObject(struct _object *,struct _object *)" (?myPyObject_CallObject@@YAPAU_object@@PAU1@0@Z)
+PyAgent.obj : error LNK2019: unresolved external symbol __imp___Py_RefTotal referenced in function "public: __thiscall Agent::Agent(struct _object *)" (??0Agent@@QAE@PAU_object@@@Z)
+C:\Python27\libs\python27_d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\patty\source\repos\projectAI\Debug\projectAI.exe : fatal error LNK1120: 10 unresolved externals
