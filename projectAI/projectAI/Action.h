@@ -7,10 +7,10 @@
 
 using namespace std;
 
-enum Action { GOFORWARD, TURNLEFT, TURNRIGHT, GRAB, SHOOT, CLIMB };
+enum Action {GOFORWARD, TURNLEFT, TURNRIGHT, GRAB, SHOOT, CLIMB};
 
 typedef vector<Action> ActionList;
 
-void PrintAction(Action action);
+void PrintAction (Action action);
 
 #endif // ACTION_H
